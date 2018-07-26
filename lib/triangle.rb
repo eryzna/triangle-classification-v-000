@@ -12,7 +12,7 @@ class Triangle
     if length_1==length_2 && length_3
       :equilateral
     elsif length_1 != length_2 && length_3
-      :isosceles
+      :scalene
     end
   end
   # write code here

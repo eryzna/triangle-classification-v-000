@@ -11,8 +11,10 @@ class Triangle
   def kind
     if length_1==length_2 && length_3
       :equilateral
-    elsif length_1 != length_2 && length_3
+    elsif length_1 != length_2 != length_3
       :scalene
+    else
+      :isosceles
     end
   end
   # write code here

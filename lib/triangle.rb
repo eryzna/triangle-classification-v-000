@@ -10,6 +10,6 @@ class Triangle
     if length_1==length_2 && length_3
       :equilateral
     end
-  end    
+  end
   # write code here
 end

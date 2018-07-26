@@ -15,12 +15,17 @@ class Triangle
       #:scalene
     elsif length_2==length_3 || length_1==length_2 || length_1==length_3
       :isosceles
+    elsif length_1 && length_2 && length_3 == 0
+      raise TriangleError
+      
     else
       :scalene
     end
   end
 
   class TriangleError < StandardError
+    
+      
     # triangle error code
   end
   # write code here
